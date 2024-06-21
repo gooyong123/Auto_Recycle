@@ -40,7 +40,18 @@
 **인공지능**  &nbsp;<a href="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml"><img src="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml/badge.svg" alt="YOLOv5 CI"></a>
  
 ### 3. 작품 구현
-#### 3-1. 장치 사진
+#### 3-1. 장치 사진(작품 시연 ppt 사용)   
+![image](https://github.com/gooyong123/Auto_Recycle/assets/143383060/d27af257-f561-4c91-a5b4-62280a5762cb)
+
+![image](https://github.com/gooyong123/Auto_Recycle/assets/143383060/3d7e4e3e-c207-4b77-b246-fb0862c46c91)   
+![image](https://github.com/gooyong123/Auto_Recycle/assets/143383060/5362d250-d6ee-4301-9ca8-174976b74d17)   
+![image](https://github.com/gooyong123/Auto_Recycle/assets/143383060/388fe7a0-2bce-4bc7-87f9-83cbaeda8abc)   
+![image](https://github.com/gooyong123/Auto_Recycle/assets/143383060/9f0111ce-25ed-4f59-9da0-e2c9e8f6ecf0)   
+![image](https://github.com/gooyong123/Auto_Recycle/assets/143383060/c4a7a9a7-850d-49a6-9c03-5fb236d10687)
+
+
+
+
 #### 3-2. YOLO 모델 학습 진행 및 학습 결과
 데이터셋 라벨링 작업은 Roboflow를 사용하였고 클래스는 총 5개로 구성(glass-bottle, can, non_label_p, label_p, alcohol_bottle)   
 ![image](https://github.com/gooyong123/Auto_Recycle/assets/143383060/a3ca2350-b9d6-4f34-a135-9990b28baa89)   
