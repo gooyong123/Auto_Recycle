@@ -1,0 +1,9 @@
+<layer-list xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ic_eye_show"
+        android:width="25dp"
+        android:height="23dp"
+        tools:ignore="ResourceCycle" />
+
+</layer-list>

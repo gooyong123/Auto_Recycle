@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+    
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="p"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/PointTextView"
+        app:layout_constraintStart_toEndOf="@id/PointTextView"
+        app:layout_constraintTop_toTopOf="@+id/PointTextView" />
+
+    <TextView
+        android:id="@+id/PointTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="갱신실패"
+        android:textColor="@color/green"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <Button
+        android:id="@+id/myInfo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:text="내 정보"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/select_item"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline7"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <Button
+        android:id="@+id/hitoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:text="적립 내역"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/guideline7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/select_item"
+        app:layout_constraintTop_toBottomOf="@id/guideline7"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <Button
+        android:id="@+id/select_item"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/button_background"
+        android:text="적립하기"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/guideline7"
+        app:layout_constraintEnd_toEndOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/guideline7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+
+    <ImageView
+        android:id="@+id/q_mark_image_view"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12"
+        app:srcCompat="@drawable/question_icon_green" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
