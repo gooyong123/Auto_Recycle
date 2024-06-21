@@ -50,6 +50,8 @@
 ![image](https://github.com/gooyong123/Auto_Recycle/assets/143383060/c4a7a9a7-850d-49a6-9c03-5fb236d10687)
 
 
+![GIFMaker_me (1)](https://github.com/gooyong123/Auto_Recycle/assets/143383060/e4149b44-32fe-4cb0-a121-1bc19a6bf8a9)
+
 
 
 #### 3-2. YOLO 모델 학습 진행 및 학습 결과
