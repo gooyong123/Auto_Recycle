@@ -33,7 +33,7 @@
   4. 클라우드 서버에서 앱에서 보낸 장치명과 라즈베리파이에서 받은 장치명이 일치할 시 누적 포인트를 유저에게 포인트를 전송   
       4-1. 유저 테이블에 있던 포인트 컬럼에 라즈베리파이 누적 포인트를 전송   
 #### 2-2. 개발 언어
-하드웨어: Raspberry PI![image](https://github.com/gooyong123/Auto_Recycle/assets/143383060/f8ca5248-7caa-4e49-a6dc-060d2ff948c0)
+하드웨어: Raspberry PI
 , Arduino   
 클라우드 서버: AWS EC2(Ubuntu 기반), RDS   
 데이터 베이스: Mysql   
